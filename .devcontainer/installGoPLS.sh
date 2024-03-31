@@ -22,3 +22,6 @@ cd -
 
 # Remove the temporary directory
 rm -rf "$temp_dir"
+
+mkdir -p /.codespaces/agent/bin
+cp /go/bin/gopls /.codespaces/agent/bin
